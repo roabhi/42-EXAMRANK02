@@ -6,11 +6,9 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 21:58:41 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/04 22:26:03 by rabril-h         ###   ########.fr       */
+/*   Updated: 2022/12/06 20:27:44 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {

@@ -6,7 +6,7 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 18:58:45 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/06 19:45:05 by rabril-h         ###   ########.fr       */
+/*   Updated: 2022/12/06 21:11:07 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	main(int i, char **params)
 {
 	int	c;
 	
-	c = ft_strlen(params[1]) - 1;
+	c = ft_strlen(params[1]) - 1; //Subtract 1 so we get the right index for the loop
 	if (i == 2)
 	{
 		while (c >= 0)
