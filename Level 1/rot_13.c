@@ -6,7 +6,7 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 20:28:34 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/06 21:09:22 by rabril-h         ###   ########.fr       */
+/*   Updated: 2022/12/07 17:14:24 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 /* ====================================
 If we take 'a'/97 we expect 'n'/110 
+that is the char 13 positions ahead in alphabet
 so substract the defaulr value of 'a'/97 
 to first value alphabet which is 'a'/97
 then add 13 which is the value we want as rot_13

@@ -6,11 +6,26 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 17:51:43 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/06 18:57:23 by rabril-h         ###   ########.fr       */
+/*   Updated: 2022/12/07 19:31:07 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+
+/*
+in order to repeat the char x times
+we always substract the distance from this letter 
+in its own range - 1 to get where the current char is
+
+so for exmaple for 'r' we would substract its value 
+which is 114 - 96 which is the position of 'a' in 
+ASCII table - 1. 'a' value is 97. we get 18 
+which is the position of r in the alphabet
+
+Same for uppercase but initial value / 'A' is not
+97 but 65 so use 64 which is 65 - 1
+
+*/
 
 int	ft_strlen(char *str)
 {
