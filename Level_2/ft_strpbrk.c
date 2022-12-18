@@ -6,7 +6,7 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/18 18:24:33 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/18 19:33:55 by rabril-h         ###   ########.fr       */
+/*   Updated: 2022/12/18 19:37:43 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,7 @@
  *	return (0);
  *
  *  Note: if not match is found we just return (0) or NULL
- *  Note: return(0) is equivalent to return (NULL) but we need to include string.h to use NULL
+ *  return(0) is equivalent to return (NULL) but we need to include string.h to use NULL
  * 	
  * @param s1 const char *
  * @param s2 const char *
