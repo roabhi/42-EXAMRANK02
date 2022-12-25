@@ -6,7 +6,7 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/23 21:14:19 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/25 19:14:43 by rabril-h         ###   ########.fr       */
+/*   Updated: 2022/12/25 19:21:04 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,12 @@
  * This helper function takes 3 params
  * 
  * *str is the string passed as first argument as params in main function
- * ref is the char we are looking for a repetition later on in *str
- * index is the position from *str were we begin to repeated chars from
+ * ref is the char we are looking for a repetition early on in *str
+ * index is the position from *str were are checking and the limit 
+ * we will use to see if the char is already been printed or not
  * 
- * as long as
+ * 
+ * if we find a match we return 1 / yes if not 0 / not
  * 
  * @param str *char
  * @param ref char
@@ -58,7 +60,7 @@ int	ft_already_printed(char *str, char ref, int index)
  * If NOT we are safe to print
  * that char since the exercicie wants us to avoid doubles
  * 
- * after we found the answer we were lookig for (chars is repeat later or not)
+ * after we found the answer we were lookig for (chars is repeat earier or not)
  * we exit the loop for that particular char
  * 
  * @param i int number of params
