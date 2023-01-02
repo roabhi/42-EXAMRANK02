@@ -6,7 +6,7 @@
 /*   By: rabril-h <rabril-h@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 19:21:58 by rabril-h          #+#    #+#             */
-/*   Updated: 2022/12/25 19:34:11 by rabril-h         ###   ########.fr       */
+/*   Updated: 2023/01/02 21:26:34 by rabril-h         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ int is_power_of_2(unsigned int n)
 {
     unsigned int number = 1;
 	
+	if ((int) n < 0)
+		return (0);
 	while(number <= n)
 	{
 		if (number == n)
