@@ -44,3 +44,17 @@ The list goes as follow
 - [`swap_bits`](/Level_2/swap_bits.c)
 - [`union`](/Level_2/union.c)
 - [`wd_match`](/Level_2/wd_match.c)
+
+# Level 3
+
+- [`add_prime_sum`](/Level_2/add_prime_sum.c)
+- [`epur_str`](/Level_2/epur_str.c)
+- [`hide_np`](/Level_2/hide_np.c)
+- [`lcm`](/Level_2/lcm.c)
+- [`rstr_capitalizar`](/Level_2/rstr_capitalizer.c)
+- [`str_capitalizer`](/Level_2/str_capitalizer.c)
+
+# Level 4
+
+- [`ft_itoa`](/Level_2/ft_itoa.c)
+- [`sort_list`](/Level_2/sort_list.c)
